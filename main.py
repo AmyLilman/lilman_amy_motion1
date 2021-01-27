@@ -1,3 +1,4 @@
 while True:
-    if input.rotation(Rotation.PITCH) > 20:
+    print(input.rotation(Rotation.ROLL))
+    if input.rotation(Rotation.PITCH) < 45:
         light.set_all(light.rgb(0, 0, 255))
