@@ -14,7 +14,7 @@
 
 while True:
     print(input.acceleration(Dimension.X))
-    if input.acceleration(Dimension.Y) > 0 or input.acceleration(Dimension.Y) < 0:
-        light.set_all(light.rgb(255, 0, 255))
+    if input.acceleration(Dimension.X) > 0 or input.acceleration(Dimension.X) < 0:
+        light.show_animation(light.rainbowAnimation, 500)
     else:
         light.clear()
