@@ -14,7 +14,7 @@
 
 while True:
     print(input.acceleration(Dimension.X))
-    if input.acceleration(Dimension.X) > 200 or input.acceleration(Dimension.X) < -200:
+    if input.acceleration(Dimension.X) > 400 or input.acceleration(Dimension.X) < -400:
         light.show_animation(light.rainbowAnimation, 500)
         music.play_melody("C C G G A A G F F E E D D C G G F F E E D G G F F E E D C C G G A A G F F E E D D C ", 150)
     else:
